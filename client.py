@@ -22,7 +22,6 @@ def start():
     send(username)
 
 
-
 def send(msg):
 
     message = msg.encode(FORMAT) #Encode string into byte like object
